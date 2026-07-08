@@ -1,0 +1,116 @@
+<style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #fcf8f2;
+            color: #4a3728;
+        }
+
+        header {
+            background-color: #ffb7b2;
+            text-align: center;
+            padding: 2rem 1rem;
+            color: white;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+        }
+
+        header p {
+            font-style: italic;
+            font-size: 1.1rem;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        .categoria-titulo {
+            border-bottom: 2px solid #ffb7b2;
+            padding-bottom: 0.5rem;
+            margin-top: 2rem;
+            margin-bottom: 1.5rem;
+            color: #d4a373;
+            font-size: 1.8rem;
+        }
+
+        .grid-cardapio {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .item-sorvete {
+            background-color: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+            transition: transform 0.2s;
+        }
+
+        .item-sorvete:hover {
+            transform: translateY(-5px);
+        }
+
+        /* Placeholder para as imagens das bolas de sorvete */
+        .imagem-placeholder {
+            height: 180px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 3rem;
+        }
+
+        .img-morango { background-color: #ffccd5; }
+        .img-chocolate { background-color: #e6ccb2; }
+        .img-pistache { background-color: #d8f3dc; }
+        .img-baunilha { background-color: #fefae0; }
+
+        .detalhes {
+            padding: 1.5rem;
+        }
+
+        .nome-preco {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 0.5rem;
+        }
+
+        .nome {
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+
+        .preco {
+            color: #e76f51;
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+
+        .descricao {
+            font-size: 0.9rem;
+            color: #7f6a5b;
+            line-height: 1.4;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            margin-top: 3rem;
+            background-color: #4a3728;
+            color: #fcf8f2;
+            font-size: 0.9rem;
+        }
+    </style>
